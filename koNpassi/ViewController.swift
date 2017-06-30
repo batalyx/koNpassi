@@ -73,7 +73,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         print(error.localizedDescription)
     }
     func locationManager(_ manager: CLLocationManager, didUpdateHeading newHeading: CLHeading) {
-        let degs = Measurement(value: newHeading.trueHeading,
+        let degs = Measurement(value: newHeading.magneticHeading, // true|magneticHeading,
                                unit: UnitAngle.degrees) // Int(newHeading.trueHeading);
         direction.text = sfmt.string(from: degs) // "\(degs)°"
         let r = CGAffineTransform(rotationAngle: CGFloat(-Double.pi - degs.converted(to: UnitAngle.radians).value))
