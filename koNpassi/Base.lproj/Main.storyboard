@@ -74,7 +74,6 @@
                             <constraint firstItem="WRq-SO-Kvr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="AyT-C2-hMn"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Sh5-bt-gD7" secondAttribute="bottom" constant="33" id="GlA-8f-PdJ"/>
                             <constraint firstItem="WRq-SO-Kvr" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="KY0-CR-HMc"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="WRq-SO-Kvr" secondAttribute="trailing" id="TC7-7D-2DK"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Sh5-bt-gD7" secondAttribute="trailing" constant="20" id="Uxm-JU-hAu"/>
                         </constraints>
                     </view>
